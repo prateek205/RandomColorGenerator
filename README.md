@@ -11,7 +11,7 @@ This is simple web project which generate random color by using `onClick` method
 #### 1. Using `onClick` Method
 ![Demo Screenshot](https://github.com/prateek205/RandomColorGenerator/blob/a7eeed8d0a6626561c7913695cd8b1af85b1a33c/asset/screenShot/randomColorGenerator.png)
 #### 2. Using `setInterval` Method
-![Demo Screenshot](https://github.com/prateek205/RandomColorGenerator/blob/6d3ddb4838fef79311017d954d641d3763f08e0e/asset/screenShot/randomColorGenerator_03.png)
+![Demo Screenshot](https://github.com/prateek205/RandomColorGenerator/blob/3a4dc6eb22017b3c1f163e3b4b71bf8364cb8507/asset/screenShot/randomColorGenertor_02.png)
 
 ## 📽️ Live Demo
 To see the Live Demo: [https://github.com/user-attachments/assets/fc33e134-8129-4508-a10a-164aaef5b865](https://random-color-generator-dusky.vercel.app/)
