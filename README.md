@@ -22,6 +22,85 @@ https://github.com/user-attachments/assets/fc33e134-8129-4508-a10a-164aaef5b865
 - CSS
 - JavaScript
 
+## 🛠️ How it Works
+### By using Set Interval Method
+#### Index.html
+``` <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project | Random Color Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="asset/favicon.ico" type="image/png" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="heading"><h1>Generating Random Color...</h1></div>
+      <div class="loading" id="loading"></div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
+```
+#### Index.js
+```
+let loading = document.getElementById("loading");
+
+function getRandomColor() {
+  let R = Math.ceil(Math.random() * 255);
+  let G = Math.ceil(Math.random() * 255);
+  let B = Math.ceil(Math.random() * 255);
+
+  document.body.style.backgroundColor = `RGB(${R}, ${G}, ${B})`;
+  loading.innerHTML = `R:${R}, G:${G}, B:${B}`;
+}
+
+setInterval(() => {
+  getRandomColor();
+}, 2000);
+```
+### By using onClick Method
+#### Index.html
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project | Random Color Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="asset/favicon.ico" type="image/png" />
+  </head>
+
+  <body>
+    <div class="container">
+      <button class="btn" id="color">Generate Random Color</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
+```
+#### Index.js
+```
+let button = document.getElementById("color");
+
+function getRandomColor() {
+  let R = Math.ceil(Math.random() * 255);
+  let G = Math.ceil(Math.random() * 255);
+  let B = Math.ceil(Math.random() * 255);
+
+  document.body.style.backgroundColor = `RGB(${R}, ${G}, ${B})`;
+  color.innerHTML = `RGB(${R}, ${G}, ${B})`;
+}
+
+button.addEventListener("click", () => {
+    getRandomColor();
+});
+```
 ## 📂 Project Structure
 .
 ├── Random Color Generator
