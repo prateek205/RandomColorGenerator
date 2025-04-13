@@ -15,9 +15,9 @@ This is simple web project which generate random color by clicking and by settin
 ![Demo Screenshot](https://github.com/prateek205/RandomColorGenerator/blob/6d3ddb4838fef79311017d954d641d3763f08e0e/asset/screenShot/randomColorGenerator_03.png)
 
 ## 📽️ Live Demo
-[https://github.com/user-attachments/assets/fc33e134-8129-4508-a10a-164aaef5b865](https://random-color-generator-dusky.vercel.app/)
+To see the Live Demo: [https://github.com/user-attachments/assets/fc33e134-8129-4508-a10a-164aaef5b865](https://random-color-generator-dusky.vercel.app/)
 
-## 💻 Technology used
+## 💻 Technology
 - HTML
 - CSS
 - JavaScript
