@@ -1,17 +1,16 @@
 # 🎨 Random Color Generator
 
-This is simple web project which generate random color by clicking and by setting some interval as it's build by using HTML, CSS and JavaScript.
+This is simple web project which generate random color by using `onClick` method and display the color at regular interval using `setInterval` method. As it's build by using HTML, CSS and JavaScript.
 
 ## 🚀 Features
-
 - Generate the Random Color
 - Display it by RGB Color
 - Change the background on click and set by interval
  
 ## 📸 Screenshot
-
+#### 1. Using `onClick` Method
 ![Demo Screenshot](https://github.com/prateek205/RandomColorGenerator/blob/a7eeed8d0a6626561c7913695cd8b1af85b1a33c/asset/screenShot/randomColorGenerator.png)
-
+#### 2. Using `setInterval` Method
 ![Demo Screenshot](https://github.com/prateek205/RandomColorGenerator/blob/6d3ddb4838fef79311017d954d641d3763f08e0e/asset/screenShot/randomColorGenerator_03.png)
 
 ## 📽️ Live Demo
@@ -23,7 +22,7 @@ To see the Live Demo: [https://github.com/user-attachments/assets/fc33e134-8129-
 - JavaScript
 
 ## 🛠️ How it Works
-### By using Set Interval Method
+### 1. By using `setInterval` Method
 #### Index.html
 ``` <!DOCTYPE html>
 <html lang="en">
@@ -62,7 +61,7 @@ setInterval(() => {
   getRandomColor();
 }, 2000);
 ```
-### By using onClick Method
+### 2.By using `onClick` Method
 #### Index.html
 ```
 <!DOCTYPE html>
@@ -102,7 +101,7 @@ button.addEventListener("click", () => {
 });
 ```
 ## 📂 Project Structure
-.
+```
 ├── Random Color Generator
 ├── assets/
 │   ├── logo
@@ -110,3 +109,17 @@ button.addEventListener("click", () => {
 ├── index.html
 ├── index.js
 └── style.css
+```
+## 🔧 Setup Instruction
+#### Clone Repository:
+```
+git clone https://github.com/prateek205/RandomColorGenerator.git
+cd RandomColorGenerator
+```
+
+## 📦 Deployment
+#### You can easily deploy this app using:
+- GitHub Pages
+- Vercel
+- Netlify
+
